@@ -22,9 +22,9 @@ sections:
         enable: true
         prefix: "I build"
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
+          - "full-stack Web apps"
+          - "AI-driven Service"
+          - "RAG System"
           - "open source tools"
         type_speed: 70
         delete_speed: 40
@@ -81,53 +81,51 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
-  # Visual Tech Stack - Icons organized by category
+  # Visual Tech Stack - 基于 Winston Dong 的简历
   - block: tech-stack
     id: skills
     content:
       title: "Tech Stack"
-      subtitle: "Technologies I use to build things"
+      subtitle: "Technologies I use to build AI-driven solutions"
       categories:
         - name: Languages
           items:
-            - name: TypeScript
-              icon: devicon/typescript
-            - name: JavaScript
-              icon: devicon/javascript
             - name: Python
               icon: devicon/python
-            - name: Go
-              icon: devicon/go
-        - name: Frontend
+            - name: Java
+              icon: devicon/java
+            - name: SQL
+              icon: devicon/mysql
+        - name: Machine Learning & AI
           items:
-            - name: React
-              icon: devicon/react
-            - name: Next.js
-              icon: devicon/nextjs
-            - name: Tailwind CSS
-              icon: devicon/tailwindcss
-            - name: Alpine.js
-              icon: devicon/alpinejs
-        - name: Backend
+            - name: PyTorch 
+              icon: devicon/pytorch
+            - name: LangChain 
+              icon: devicon/langchain
+            - name: Transformers
+              icon: devicon/huggingface
+            - name: Gemini / OpenAI
+              icon: brands/google
+        - name: Backend & Data
           items:
-            - name: Node.js
-              icon: devicon/nodejs
-            - name: Express
-              icon: devicon/express
+            - name: Spring Boot
+              icon: devicon/spring
             - name: PostgreSQL
               icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
+            - name: MySQL
+              icon: devicon/mysql
+            - name: FastAPI
+              icon: devicon/fastapi
+        - name: Tools & DevOps
           items:
             - name: Docker
               icon: devicon/docker
-            - name: AWS
-              icon: devicon/amazonwebservices-wordmark
-            - name: GitHub Actions
+            - name: GitHub
               icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
+            - name: Jupyter
+              icon: devicon/jupyter
+            - name: Postman
+              icon: devicon/postman
     design:
       style: grid
       show_levels: false
@@ -138,49 +136,38 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
-  # Experience Timeline
+# Experience Timeline - 基于 Winston Dong 的简历
   - block: resume-experience
     id: experience
     content:
       title: Experience
       date_format: Jan 2006
       items:
-        - title: Senior Software Engineer
-          company: Tech Corp
-          company_url: ''
-          company_logo: ''
-          location: San Francisco, CA
-          date_start: '2023-01-01'
-          date_end: ''
-          description: |2-
-            * Lead development of microservices architecture serving 1M+ users
-            * Improved API response time by 40% through optimization
-            * Mentored team of 5 junior developers
-            * Tech stack: React, Node.js, PostgreSQL, AWS
-        - title: Full-Stack Developer
-          company: Startup Inc
+        - title: AI Engineer Intern
+          company: ReelFluent Inc.
           company_url: ''
           company_logo: ''
           location: Remote
-          date_start: '2021-06-01'
-          date_end: '2022-12-31'
+          date_start: '2025-12-01'
+          date_end: ''
           description: |2-
-            * Built and deployed 3 production applications from scratch
-            * Implemented CI/CD pipeline reducing deployment time by 60%
-            * Collaborated with design team on UI/UX improvements
-            * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: Junior Developer
-          company: Web Agency
+            * Developed an end-to-end LLM pipeline to extract, validate, and structure linguistic knowledge from 100k+ subtitles using Gemini API.
+            * Clustered 40k+ knowledge points into 70+ product-ready "Lingo Packs" with automated metadata and SEO-ready branding[cite: 19].
+            * Implemented timestamp-accurate video slicing and FFmpeg-based screenshot extraction for AI language learning[cite: 20].
+            * Built an interactive AI tutor module using Flask and Gemini APIs to support real-time chat functionality[cite: 21].
+            * Tech stack: Python, Gemini API, Flask, LLMs (Transformers/RAG), FFmpeg[cite: 10, 18, 21].
+        - title: Testing Engineer Intern
+          company: Xiaoqiang Parking (Jiahu Tech)
           company_url: ''
           company_logo: ''
-          location: New York, NY
-          date_start: '2020-01-01'
-          date_end: '2021-05-31'
+          location: Hangzhou, China
+          date_start: '2023-06-01'
+          date_end: '2023-08-31'
           description: |2-
-            * Developed client websites using modern web technologies
-            * Maintained and updated legacy codebases
-            * Participated in code reviews and agile ceremonies
-            * Tech stack: React, WordPress, PHP, MySQL
+            * Conducted multi-concurrency stress testing (JMeter) and API connectivity tests (APIFOX) to ensure system stability[cite: 25].
+            * Diagnosed slow-loading pages and login logic issues, providing critical feedback to the development team[cite: 26].
+            * Led the internship team to coordinate and test CRM system integration for new parking facilities[cite: 27].
+            * Tech stack: JMeter, APIFOX, Charles, Navicat, MySQL[cite: 12, 25, 27].
     design:
       columns: '1'
       background:
@@ -222,7 +209,7 @@ sections:
       text: |-
         I'm always interested in hearing about new projects and opportunities.
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+      email: wenguand@andrew.cmu.edu
       autolink: true
     design:
       columns: '1'
@@ -238,7 +225,7 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
+        I'm currently looking for **AI Engineer/ML Engineer** or **Software Developer** roles.
         
         Let's connect and discuss how I can help your team.
       button:

@@ -13,18 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Winston Dong"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "Carnegie Mellon University & ReelFluent"
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "Full-Stack Developer"
+    tagline: "AI Engineer | Graduate Student at Carnegie Mellon University"
     # Site meta description for search engines and social sharing
-    description: "Modern developer portfolio showcasing web development projects, technical blog posts, and open source contributions. Built with Hugo Blox."
+    description: "Wenguang(Winston) Dong is an AI Engineer focused on building end-to-end GenAI application systems, including RAG pipelines, real-time LLM applications, and multimodal AI products. Graduate student at Carnegie Mellon University, trained in distributed systems, cloud computing, and applied machine learning."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "yourusername"              # Twitter/X handle for Twitter Cards (without @)
+      Linkedin: "wenguang-qaz1105"              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME

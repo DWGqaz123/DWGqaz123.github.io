@@ -82,13 +82,17 @@ experience:
     start: 2023-10-01
     end: 2025-10-31
     summary: |
-      Enterprise AI Research: Studying how multimodal models, multimodal RAG, and multi-agent systems (MAS) can be embedded into enterprise workflows to boost employee productivity and knowledge-work efficiency.
+      Enterprise AI Research: 
+      Studying how multimodal models, multimodal RAG, and multi-agent systems (MAS) can be embedded into enterprise workflows to boost employee productivity and knowledge-work efficiency.
 
-      Taxonomy & Framework: Building a concise taxonomy linking AI task types (e.g., multimodal retrieval, agent collaboration) with required organizational capabilities and workflow conditions.
+      Taxonomy & Framework: 
+      Building a concise taxonomy linking AI task types (e.g., multimodal retrieval, agent collaboration) with required organizational capabilities and workflow conditions.
 
-      Human–AI Collaboration: Exploring effective collaboration models (assist → co-create → delegate) to understand how AI augments real-world decision-making and creativity.
+      Human–AI Collaboration: 
+      Exploring effective collaboration models (assist → co-create → delegate) to understand how AI augments real-world decision-making and creativity.
 
-      Strategy Modeling: Developing a lightweight enterprise AI adoption framework connecting task characteristics, modality choice, and automation levels. Manuscript in preparation.
+      Strategy Modeling: 
+      Developing a lightweight enterprise AI adoption framework connecting task characteristics, modality choice, and automation levels. Manuscript in preparation.
 
   - role: Testing Engineer Intern
     org: Xiaoqiang Parking, Hangzhou Jiahu Technology Co., Ltd.
