@@ -2,99 +2,138 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
-postnominals: []
+  display: Wenguang(Winston) Dong
+  given: Wenguang
+  family: Dong
+  alternate: 'Winston'  # Example: 王伟
+  pronunciation: 
+  pronouns: he/him
+postnominals:
+
 status:
-  icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
+  icon: "🤠"
+role: AI Engineer
 bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
+  Wenguang(Winston) Dong AI is an Engineer focused on building end-to-end GenAI application systems, including RAG pipelines, real-time LLM applications, 
+  and multimodal AI products. Graduate student at Carnegie Mellon University, trained in distributed systems, cloud computing, and applied machine learning.
 
 affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
+  - name: ReelFluent
+    url: https://www.reelfluent.app/
 
 links:
   - icon: at-symbol
-    url: mailto:alex@example.com
+    url: wenguand@andrew.cmu.edu
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/alexjohnson
+    url: https://github.com/DWGqaz123
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
+    url: https://www.linkedin.com/in/wenguang-qaz1105/
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/citations?user=example
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/0000-0002-1825-0097
+    # - icon: brands/x
+    # url: https://x.com/example
 
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
+  - AI Engineering
+  - Large Language Models
+  - Multimodal AI
+  - Natural Language Processing
+  - Retrieval-Augmented Generation
+  - AI Ethics
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
+  - degree: Master of Information Systems Management
+    institution: Carnegie Mellon University
+    start: 2025-08-25
+    end: 2026-12-15
     summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
+      Focused on AI system design, distributed systems, Natural Language Processing, Python, Java, and cloud infrastructure.
     button:
-      text: View Project
-      url: https://github.com/alexjohnson/senior-project
-      icon: brands/github
+      text: Download dissertation
+      url: /resume.pdf
+      icon: hero/arrow-down-tray
+  - degree: Bachelor of Information Systems Management
+    institution: Hangzhou Dianzi University
+    start: 2021-09-01
+    end: 2025-05-31
 
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
+  - role: AI Engineer
+    org: ReelFluent
+    start: 2025-12-01
     summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
-    summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
-    summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
+      Built an LLM-driven pipeline to extract, validate, and structure linguistic knowledge points from 100k+ SRT subtitles using Gemini API.
 
+      Developed an end-to-end LLM-based pipeline cluster 40K+ knowledge points, generate master motives/specifics, and automatically package them into 70+ product-ready Lingo Packs with Gemini-generated metadata and SEO-ready branding.
+
+      Implemented timestamp-accurate slicing, episode metadata generation, and FFmpeg-based screenshot extraction to support AI-powered language learning.
+
+      Developed a new AI tutor module using Gemini APIs and exposed it as a Flask-based service for interactive chat.
+    button:
+      text: View Company Website
+      url: https://www.reelfluent.app/
+      icon: hero/arrow-down-tray
+  
+  - role: Research Assistant
+    org: Hangzhou Dianzi University Collaboration with Prof. Jinti Fu
+    start: 2023-10-01
+    end: 2025-10-31
+    summary: |
+      Enterprise AI Research: Studying how multimodal models, multimodal RAG, and multi-agent systems (MAS) can be embedded into enterprise workflows to boost employee productivity and knowledge-work efficiency.
+
+      Taxonomy & Framework: Building a concise taxonomy linking AI task types (e.g., multimodal retrieval, agent collaboration) with required organizational capabilities and workflow conditions.
+
+      Human–AI Collaboration: Exploring effective collaboration models (assist → co-create → delegate) to understand how AI augments real-world decision-making and creativity.
+
+      Strategy Modeling: Developing a lightweight enterprise AI adoption framework connecting task characteristics, modality choice, and automation levels. Manuscript in preparation.
+
+  - role: Testing Engineer Intern
+    org: Xiaoqiang Parking, Hangzhou Jiahu Technology Co., Ltd.
+    start: 2023-06-20
+    end: 2023-08-25
+    summary: |
+      Quality Testing: Conducted buried point tracking tests (analyzed via Umeng), multi-concurrency stress testing (JMeter), and connectivity tests for client app and CMS APIs (APIFOX) to ensure system stability
+
+      Issue Identification: Diagnosed and documented slow-loading pages (homepage, order page) and discovered login logic issues in the newly released test client app, providing timely feedback for fixes. Utilized Charles for network packet capture and Navicat for database verification
+
+      CRM/Business Integration: Lead the internship team to successfully coordinate and test CRM system integration with 2 new parking lots, ensuring seamless operation and accurate data exchange
+
+      Teamwork: Communicated with developers about the found test problems and assist in solving them; Participated in product requirement meetings and proposed a lottery-based feature design, which was adopted and integrated into the final product plan
+  
 skills:
-  - name: Development
+  - name: Technical Skills
     items:
-      - label: TypeScript
+      - label: ML pipelines
         level: 5
-      - label: React
-        level: 5
-      - label: Node.js
+      - label: LLM applications
         level: 5
       - label: Python
-        level: 4
-  - name: DevOps
-    items:
-      - label: Docker
-        level: 4
-      - label: AWS
-        level: 4
-      - label: CI/CD
         level: 5
+      - label: Java
+        level: 5
+  # - name: Research & Communication
+  #   items:
+  #     - label: Academic Writing
+  #       level: 5
+  #     - label: Conference Presentations
+  #       level: 4
+  #     - label: Grant Proposals
+  #       level: 4
 
 languages:
   - name: English
+    level: 4
+    label: Fluent
+  - name: Chinese
     level: 5
     label: Native
 
-awards: []
+# awards:
+#   - title: Best Paper Award
+#     awarder: NeurIPS
+#     date: "2022-12-01"
+#     summary: Awarded for groundbreaking work on efficient training of large models.
+#     icon: hero/trophy
