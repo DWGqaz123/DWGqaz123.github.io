@@ -24,7 +24,7 @@ links:
     label: Source Code
   - type: download
     url: https://github.com/DWGqaz123/realtime_transcriber_WG/releases/latest
-    label: Download v1.0.1
+    label: Download v1.0.3
 featured: true
 status: "Released"
 role: "Solo Developer"
@@ -72,11 +72,17 @@ A full-stack AI application designed to close the loop between **capturing infor
 
 Solved the core race condition between continuous WebSocket streaming and latent LLM inference:
 ```
-WebSocket Stream → Ingestion Buffer → [Atomic Transfer] → Processing Snapshot
-                                                               ↓
-                                                          GPT-4 Summary
-                                                               ↓
-                                                     SQLite + Frontend
+WebSocket Stream → Ingestion Buffer
+                          ↓
+                  [Atomic Transfer]
+                          ↓
+                  Processing Snapshot
+                          ↓
+                    GPT-4 Summary
+                          ↓
+                  SQLite + Frontend
+
+
 ```
 
 **Key Innovation**: Separate ingestion and processing buffers enable atomic transfers, preventing data loss during LLM inference delays.
@@ -144,8 +150,8 @@ Privacy-focused Retrieval-Augmented Generation:
 
 ## 🚀 Future Roadmap
 
-- [ ] iOS companion app
-- [ ] Multi-language transcription support
+- [✅] iOS companion app
+- [✅] Multi-language transcription support
 - [ ] Custom embedding model fine-tuning
 - [ ] Export to Notion/Obsidian
 - [ ] Team collaboration features
